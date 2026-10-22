@@ -1,0 +1,28 @@
+# ==============================================================================
+# CyberScope - Network Port Scanner & Service Detector
+# Author: Yanadi Guru Lokesh
+# Email: gurulokesh339@gmail.com | Phone: +91 7075390614
+# Department: Department of Computer Science & Engineering
+# ==============================================================================
+#
+# [1] CORE RUNTIME ENVIRONMENT:
+# - Python >= 3.8
+# - Operating System: Windows 10/11, Linux, or macOS
+#
+# [2] PYTHON STANDARD LIBRARY MODULES (Zero 'pip install' required for core):
+# - socket              # Raw TCP/IP stream connections & 3-way handshakes
+# - concurrent.futures  # High-speed multi-threaded worker pooling (ThreadPoolExecutor)
+# - argparse            # Command-line interface argument parsing
+# - ipaddress           # IPv4/IPv6 address validation and resolution
+# - json                # Structured scan report serializing and export
+# - http.server         # Native HTTP server for the browser-based Web App
+# - tkinter             # Native desktop GUI window framework
+# - sys, os, time       # System execution, timing, and file management
+#
+# ==============================================================================
+# [3] OPTIONAL PACKAGES (For advanced terminal styling & extensions):
+# Install with: pip install -r requirements.txt
+# ==============================================================================
+colorama>=0.4.6         # Cross-platform ANSI color support for Windows terminal
+rich>=13.7.0            # Advanced terminal styling, animated spinners, and live tables
+requests>=2.31.0        # Advanced HTTP/HTTPS header and TLS certificate inspection
